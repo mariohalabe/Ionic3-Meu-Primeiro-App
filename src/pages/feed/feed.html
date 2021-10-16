@@ -1,0 +1,51 @@
+<!--
+  Generated template for the FeedPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Feed</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/imgs/avatar.png">
+      </ion-avatar>
+      <h2 class ="feed-title">{{ nome_usuario }}</h2>
+      <p class="feed-data">Outubro 15, 2021</p>
+    </ion-item>
+  
+    <img src="assets/imgs/feed-images.png">
+  
+    <ion-card-content>
+      <p class="meupinto">Tenho uma prima loirinha.</p>
+    </ion-card-content>
+  
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>500 Likes</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="text"></ion-icon>
+          <div>0 Comments</div>
+        </button>
+      </ion-col>
+      <ion-col align-self-center text-center>
+        <ion-note>
+          14:30 out
+        </ion-note>
+      </ion-col>
+    </ion-row>
+  
+  </ion-card>
+</ion-content>
